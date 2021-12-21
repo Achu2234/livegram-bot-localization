@@ -1,0 +1,25 @@
+language_info:
+  is_enabled: true
+  name: Japanese
+
+start:
+  choose_language: '言語を選択してください:'
+  language_changed: OK、あなたの言語は保存されました.
+  copyright: |
+    このボットは  @LivegramBot
+    
+cannot_forward: |
+  他人のメッセージを転送することはできません.
+  
+cannot_edit: |
+ 受信者に変更を表示させたい場合は、メッセージを新規として送信します。
+ようこそ: |-
+  こんにちは!
+  
+  このボットを使用してお問い合わせください.
+after_sending: (strings are not specified)
+
+ban: |
+  あなたは禁止されました ${until ? 'until ' + until + ' UTC' : 'forever'}.${reason ? '\n\nReason: ' + reason : ''}
+unban: |
+  あなたは禁止されていません.
